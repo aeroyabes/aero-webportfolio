@@ -5,6 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -12,13 +13,32 @@
 body{
 	background-color: #000000;
 	background-repeat: no-repeat;
- 	 background-size: auto;
+ 	/*background-size: auto;*/
 }
 
-.set img{
-	width: 1280px;
-	height: 200px;
 }
+/*small screen*/
+@media (min-width: 320px){
+        image: {
+                 width: 320px;
+                 height: 767px ;
+        }
+}
+/*pag medium screen size:*/
+@media (min-width: 768px){
+        image: {
+                 width:768px ;
+                 height:991px ;
+        }
+}
+/*pag large screen size:*/
+@media (min-width: 992px){
+        image: {
+                 width: 992px;
+                 height: 1140px ;
+        }
+}
+
 
 .navbar-inner {
     background-color:transparent;
@@ -47,6 +67,7 @@ hr.pacman {
 h3{
 	text-decoration-style: none;
 }
+
 
 /*body {
 
